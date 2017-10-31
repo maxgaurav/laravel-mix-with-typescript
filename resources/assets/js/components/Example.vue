@@ -7,9 +7,6 @@
 
                     <div class="panel-body">
                         I'm an example component!
-                        <p>
-                            {{ content }}
-                        </p>
                     </div>
                 </div>
             </div>
@@ -19,17 +16,10 @@
 
 <script lang="ts">
 
-//    export default {
-//        mounted(): void {
-//            console.log('Component mounted.')
-//        }
-//    }
-    import Vue from 'vue';
-    import Component from 'vue-class-component';
-
-    @Component({})
-    export default class Example extends Vue{
-        public content:string = "COntent from vue class";
+    export default {
+        mounted(): void {
+            console.log('Component mounted.')
+        }
     }
 
 </script>

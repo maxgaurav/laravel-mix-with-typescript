@@ -17,6 +17,7 @@ let Vue = require('vue').default;
  */
 
 Vue.component('example', require('./components/Example.vue'));
+Vue.component('example-typescript-component', require('./components/ExampleTypescriptComponent.vue'));
 
 const app = new Vue({
     el: '#app'

@@ -83,6 +83,7 @@
                 </div>
                 <div id="app">
                     <example></example>
+                    <example-typescript-component></example-typescript-component>
                 </div>
 
                 <div class="links">
