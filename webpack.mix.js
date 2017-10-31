@@ -14,3 +14,6 @@ const { mix } = require('laravel-mix');
 mix.ts('resources/assets/js/app.ts', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');
 
+    //optional extract function
+    // .extract(['vue','axios','lodash','jquery'],'public/js/vendor.js');
+
